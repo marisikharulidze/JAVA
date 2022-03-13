@@ -1,3 +1,5 @@
+package Homework_2;
+
 public class java_2 {
     /*int len, p,ele;
         Scanner sc = new Scanner(System.in);
