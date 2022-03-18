@@ -2,25 +2,15 @@ package classwork;
 
 import java.util.Scanner;
 
-public class calculator {
-    public static void main(String[] args) {
+public class Calculator {
+    public static void calc(){
         insert();
 
         switch(c) {
-            case '+':
-                System.out.println(addition());
-                break;
-            case '-':
-                System.out.println(subtraction());
-                break;
-            case '*':
-                System.out.println(multiplication());
-                break;
-            case '/':
-                System.out.println(division());
-                break;
-            default:
-                break;
+            case '+' -> System.out.println(addition());
+            case '-' -> System.out.println(subtraction());
+            case '*' -> System.out.println(multiplication());
+            case '/' -> System.out.println(division());
         }
     }
 
