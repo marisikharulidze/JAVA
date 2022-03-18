@@ -2,7 +2,7 @@ package classwork;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class Calculator_1 {
     public static void calc(){
         insert();
 
