@@ -4,7 +4,7 @@ import Homework_2.Constructor.First;
 
 import java.util.Scanner;
 
-public class FirstChild extends Second {
+public class SecondChild extends Second {
     public static void main(String[] args) {
         method_1();
         System.out.println(method_2());
