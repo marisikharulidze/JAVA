@@ -16,6 +16,7 @@ public class Third {
             else odd++;
             System.out.print(rand + " ");
         }
+
         System.out.println();
         System.out.println("even : " + even);
         System.out.println("odd : " + odd);
