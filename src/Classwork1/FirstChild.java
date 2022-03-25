@@ -1,8 +1,10 @@
-package Homework_2.Constructor;
+package Classwork1;
+
+import Homework_2.Constructor.First;
 
 import java.util.Scanner;
 
-public class FirstChild extends First{
+public class FirstChild extends First {
     public static void main(String[] args) {
         method_1();
         System.out.println(method_2());
