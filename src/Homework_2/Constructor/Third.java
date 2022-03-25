@@ -6,9 +6,9 @@ public class Third {
         int a = 0;
         int b = 20;
 
-        for(a=0; a<b; a++){
-
-        }
+//        for(a=0; a<b; a++){
+//
+//        }
     }
 
 
