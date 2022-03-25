@@ -17,10 +17,7 @@ public class First {
         a = scan.nextInt();
         b = scan.nextInt();
     }
-    public static int method_2(){
-        return Math.abs(a) % 10;
-    }
-    public static int method_3(){
-        return Integer.parseInt(Integer.toString(b).substring(0,1));
-    }
+    public static int method_2(){return Math.abs(a) % 10;}
+
+    public static int method_3(){return Integer.parseInt(Integer.toString(b).substring(0,1));}
 }

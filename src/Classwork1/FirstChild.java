@@ -18,7 +18,5 @@ public class FirstChild extends First {
         x = scan.nextInt();
         y = scan.nextInt();
     }
-    public static int method_2(){
-        return x + y;
-    }
+    public static int method_2(){return x + y;}
 }
