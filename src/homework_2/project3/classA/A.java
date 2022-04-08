@@ -1,4 +1,4 @@
-package Homework_2.project3.classA;
+package homework_2.project3.classA;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;

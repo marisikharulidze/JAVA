@@ -1,6 +1,4 @@
-package Classwork1;
-
-import Homework_2.Constructor.First;
+package classwork1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Homework_2.Constructor;
+package homework_2.Constructor;
 
 public class First {
     public static void main(String[] args) {

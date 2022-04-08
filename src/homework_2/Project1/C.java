@@ -1,10 +1,6 @@
-package Homework_2.Project1;
+package homework_2.Project1;
 
 import java.util.Scanner;
-
-import static Homework_2.Project1.B.method_1;
-import static java.lang.Math.log;
-import static java.lang.Math.pow;
 
 public class C {
     public static void main(String[] args) {

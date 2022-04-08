@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class practice {
     /*int len, p,ele;
         Scanner sc = new Scanner(System.in);
@@ -18,4 +20,29 @@ public class practice {
             System.out.print(arr[i]+",");
         }
         System.out.print(arr[len]);*///ragaccc important
+    public void getEvenDigitSum(int number)
+    {
+        int originalNumber = number;
+        int digit, sum = 0;
+
+        while(number != 0)
+        {
+            digit = number % 10;
+
+            if(digit % 2 == 0)
+                sum = sum + digit;
+
+            number = number / 10;
+        }
+        System.out.println("Sum of even digits of number "+originalNumber+ " is: "+sum);
+    }
+
+    public static void main(String args[])
+    {
+        practice eds = new practice();
+
+        eds.getEvenDigitSum(12345);
+        eds.getEvenDigitSum(22222);
+        eds.getEvenDigitSum(13579);
+    }
 }

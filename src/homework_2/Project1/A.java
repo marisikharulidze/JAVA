@@ -1,8 +1,8 @@
-package Classwork1;
+package homework_2.Project1;
 
 import java.util.Scanner;
 
-public class First {
+public class A {
     public static void main(String[] args) {
         method_1();
         System.out.println(method_2());
@@ -17,7 +17,11 @@ public class First {
         a = scan.nextInt();
         b = scan.nextInt();
     }
-    public static int method_2(){return Math.abs(a) % 10;}
+    public static int method_2(){
+        return a+b;
+    }
+    public static int method_3(){
+        return a*b;
+    }
 
-    public static int method_3(){return Integer.parseInt(Integer.toString(b).substring(0,1));}
 }
