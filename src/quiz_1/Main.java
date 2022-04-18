@@ -55,7 +55,7 @@ public class Main {
                 System.out.println(rand+" is not prime number");
             }else{
                 for(j=2; j<=m; j++){
-                    if(rand%j == 0){
+                    if(rand % j == 0){
                         System.out.println(rand+" is not prime number");
                         sm = 1;
                         break;
