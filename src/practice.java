@@ -48,6 +48,10 @@ public class practice {
 //        eds.getEvenDigitSum(13579);
 //    }
 
+    public static void main(String[] args) {
+        System.out.println(Thread.currentThread().getName());
+    }
+
 }
 
 

@@ -26,16 +26,14 @@ public class Files {
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
 
-            FileReader rd = new FileReader("myFiles/data.txt");
-            int i;
-            while ((i = rd.read()) != -1) System.out.print((char)i);
-            rd.close();
-
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String st;
-            while ((st = br.readLine()) != null) System.out.println(st);
-
-
+//            FileReader rd = new FileReader("myFiles/data.txt");
+//            int i;
+//            while ((i = rd.read()) != -1) System.out.print((char)i);
+//            rd.close();
+//
+//            BufferedReader br = new BufferedReader(new FileReader(file));
+//            String st;
+//            while ((st = br.readLine()) != null) System.out.println(st);
         }
         catch (IOException e) {
             System.out.println("An error occurred.");
