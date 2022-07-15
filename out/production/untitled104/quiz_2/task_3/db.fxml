@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="315.0" prefWidth="433.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz_2.task_3.DbController">
+   <children>
+      <TextField fx:id="nameTextarea" layoutX="223.0" layoutY="38.0" prefHeight="26.0" prefWidth="177.0" />
+      <TextField fx:id="lectorNumTextarea" layoutX="223.0" layoutY="188.0" prefHeight="26.0" prefWidth="177.0" />
+      <TextField fx:id="studentNumTextarea" layoutX="223.0" layoutY="139.0" prefHeight="26.0" prefWidth="177.0" />
+      <TextField fx:id="locationTextarea" layoutX="223.0" layoutY="88.0" prefHeight="26.0" prefWidth="177.0" />
+      <Label layoutX="32.0" layoutY="42.0" prefHeight="18.0" prefWidth="100.0" text="Name : " />
+      <Label layoutX="32.0" layoutY="192.0" prefHeight="18.0" prefWidth="134.0" text="Number Of Lectors : " />
+      <Label layoutX="32.0" layoutY="143.0" prefHeight="18.0" prefWidth="143.0" text="Number Of Students : " />
+      <Label layoutX="32.0" layoutY="92.0" prefHeight="18.0" prefWidth="133.0" text="Location : " />
+      <Button layoutX="32.0" layoutY="248.0" mnemonicParsing="false" onAction="#buttonClick" text="Insert" />
+      <Button layoutX="291.0" layoutY="248.0" mnemonicParsing="false" onAction="#viewClick" text="View" />
+      <Button layoutX="350.0" layoutY="248.0" mnemonicParsing="false" onAction="#delClick" text="Delete" />
+   </children>
+</AnchorPane>
